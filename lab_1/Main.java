@@ -12,6 +12,7 @@ public class Main {
                 userInput = scanner.nextLine();
 
                 if (userInput.equalsIgnoreCase("q")) {
+                    System.out.println("Goodbye ^_^");
                     return;
                 }
 
@@ -22,7 +23,7 @@ public class Main {
                         hw.Hello();
                         break;
                     default:
-                        System.out.println("Неправильний ввiд. Введiть номер завдання (1; 2; 3; 4) або 'q' для виходу.");
+                        System.out.println("Неправильний ввiд. Введiть номер завдання (1) або 'q' для виходу.");
                         break;
                 }
             }
